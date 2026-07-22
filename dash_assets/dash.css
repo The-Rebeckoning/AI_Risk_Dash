@@ -2,18 +2,18 @@
 * { box-sizing: border-box; }
 body { margin: 0; color: var(--text); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at top left,rgba(0,0,0,.06),transparent 34%),linear-gradient(180deg,#fafafa 0%,#f0f0f0 46%,#f7f7f7 100%); }
 .app-shell { max-width: 1280px; margin: auto; padding: 1.35rem 1rem 2.75rem; }
-.toc-navbar { display: flex; flex-direction: column; height: 100dvh; overflow-y: auto; padding: 1.25rem 1rem; border-right: 1px solid rgba(70,70,70,.14); background: rgba(250,250,250,.97); }
+.toc-navbar { height: 100dvh; overflow-y: auto; padding: 1.25rem 1rem; border-right: 1px solid rgba(70,70,70,.14); background: rgba(250,250,250,.97); }
 .toc-heading { padding: .25rem .65rem 1.15rem; }
 .toc-brand { color: var(--accent); font-size: .82rem; font-weight: 900; letter-spacing: .18em; }
 .toc-title { margin-top: .5rem; color: #171717; font-size: 1.42rem; font-weight: 850; line-height: 1.12; }
+.toc-credit { margin-top: .8rem; color: #666; font-size: .78rem; }
+.toc-credit a { color: var(--accent); font-weight: 750; text-decoration: none; }
+.toc-credit a:hover { text-decoration: underline; }
+.toc-credit a:focus-visible { border-radius: 3px; outline: 3px solid rgba(142,59,70,.22); outline-offset: 3px; }
 .toc-copy { margin-top: .65rem; color: var(--muted); font-size: .98rem; line-height: 1.55; }
 .toc-link { min-height: 50px; padding: .7rem .85rem; border-radius: 14px; font-weight: 700; }
 .toc-link .mantine-NavLink-label { font-size: .96rem; font-weight: 800; }
 .toc-link[data-active="true"] { background: var(--accent); }
-.toc-credit { margin-top: auto; padding: 1.25rem .75rem .35rem; color: #666; font-size: .78rem; }
-.toc-credit a { color: var(--accent); font-weight: 750; text-decoration: none; }
-.toc-credit a:hover { text-decoration: underline; }
-.toc-credit a:focus-visible { border-radius: 3px; outline: 3px solid rgba(142,59,70,.22); outline-offset: 3px; }
 .hero-shell { padding: 1.8rem 2rem; border-radius: 24px; color: #f8f8f8; background: linear-gradient(135deg,#161616,#545454); box-shadow: 0 16px 34px rgba(0,0,0,.13); }
 .hero-eyebrow,.section-kicker { text-transform: uppercase; letter-spacing: .14em; font-size: .76rem; font-weight: 800; }
 .hero-title { max-width: 18ch; margin: .5rem 0; font-size: 2.55rem; line-height: 1.02; }
