@@ -398,6 +398,18 @@ app.layout = dmc.MantineProvider(
                         )
                         for page_key, label in NAV_ITEMS
                     ], gap="xs"),
+                    html.Div(
+                        [
+                            "Created by ",
+                            html.A(
+                                "Rebecca Hayes",
+                                href="https://www.linkedin.com/in/r-a-hayes/",
+                                target="_blank",
+                                rel="noopener noreferrer",
+                            ),
+                        ],
+                        className="toc-credit",
+                    ),
                 ],
                 className="toc-navbar",
             ),
