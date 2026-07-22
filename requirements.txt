@@ -1,0 +1,8 @@
+beautifulsoup4
+dash
+dash-mantine-components==2.8.0
+gunicorn
+openai
+pandas
+plotly
+requests

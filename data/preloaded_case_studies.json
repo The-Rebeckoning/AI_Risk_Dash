@@ -1,0 +1,66 @@
+{
+  "Business": {
+    "title": "Anthropic Accuses Alibaba of Large-Scale AI Model Distillation Attack",
+    "summary": "Anthropic accused Alibaba of using about 25,000 fraudulent accounts to extract outputs from Claude and train Alibaba's own AI models. The OECD incident page frames the alleged large-scale distillation attack as unauthorized extraction and use of model capabilities that may violate intellectual property rights.",
+    "relevance": "This case is relevant to Business because it focuses on alleged misuse of one company's AI system to benefit a competitor, creating economic, intellectual-property, reputational, and digital-security harms. It highlights how model extraction and distillation attacks can threaten AI companies' products, data assets, and competitive position.",
+    "also_affects": "",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-22-7eef",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-22&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Business%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Children": {
+    "title": "YouTube Settles Lawsuit Over AI-Driven Social Media Harm to Minors",
+    "summary": "Google's YouTube settled a confidential lawsuit with a minor who alleged that the platform's AI-driven design caused mental health harm. The OECD incident page links the case to recommendation algorithms, autoplay, and infinite-scroll features designed to maximize engagement, and classifies it as an AI incident involving psychological harm to a child.",
+    "relevance": "This case is relevant to Children because it focuses on a minor allegedly harmed by AI-driven social media design. It highlights how recommendation systems and engagement-maximizing features can create mental health and addiction risks for young users, especially when platforms are used heavily by children and teens.",
+    "also_affects": "",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-23-1313",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-23&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Children%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Civil society": {
+    "title": "Facial Recognition AI Used by Security Forces Causes Human Rights Violations",
+    "summary": "Facial recognition AI deployed by security forces in multiple countries has led to privacy violations, wrongful identification, and suppression of peaceful protests. The OECD incident page says human rights experts warn that unregulated use erodes privacy, freedom of expression, and non-discrimination rights.",
+    "relevance": "This case is relevant to Civil society because it focuses on AI-enabled surveillance that can chill protest, civic participation, and public dissent. It highlights how facial recognition systems used by security forces can harm civil liberties, human rights, and the ability of communities to organize and speak freely.",
+    "also_affects": "General public",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-19-6df6",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-19&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Civil+society%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Consumers": {
+    "title": "Workday Faces Lawsuit Over Alleged AI Discrimination in Job Screening",
+    "summary": "Workday must face a California lawsuit alleging that its AI-powered job screening tools discriminated against applicants based on race, age, and disability. The OECD incident page describes the case as an AI incident because the system was used in recruitment screening and is alleged to have caused discriminatory harm to protected groups.",
+    "relevance": "This case is relevant to Consumers because it focuses on people subject to an AI-enabled service that may shape access to jobs and economic opportunity. It highlights how automated screening tools can affect applicants as consumers of hiring platforms, especially when biased outputs may violate anti-discrimination and labor protections.",
+    "also_affects": "Workers",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-22-4a74",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-22&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Consumers%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Government": {
+    "title": "Anthropic AI Models Implicated in NSA System Breach, Prompting Export Ban Amid Cyberattack Fears",
+    "summary": "Anthropic's Mythos and Fable 5 models were reported to have found vulnerabilities in classified NSA systems during a red-team exercise, prompting US export restrictions and broader cyberattack concerns. The OECD incident page classifies the case as an AI hazard because the models' capabilities could plausibly enable harmful cyber activity if misused.",
+    "relevance": "This case is relevant to Government because it focuses on national security, classified systems, export controls, and public-sector cybersecurity risk. It highlights how frontier AI models used for vulnerability discovery can create difficult governance questions for agencies responsible for critical infrastructure, intelligence, and defense.",
+    "also_affects": "Business",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-21-1644",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-21&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Government%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Trade unions": {
+    "title": "SAG-AFTRA condemns Seedance 2.0 AI videos",
+    "summary": "Hollywood actors' union SAG-AFTRA condemned Seedance 2.0 for generating videos that used real actors\u2019 likenesses and voices without consent, infringing copyrights and labor rights. The backlash, including cease-and-desist letters from major studios and calls for stronger safeguards, highlights the risk to performers\u2019 livelihoods and the role of unions in protecting members in the era of AI-generated content.",
+    "relevance": "This case directly involves a trade union (SAG-AFTRA) taking a stance against an AI system that harms workers\u2019 rights and livelihoods, illustrating how unions respond to AI-driven copyright and labor rights violations that affect their members.",
+    "also_affects": "Workers",
+    "source_url": "https://oecd.ai/en/incidents/2026-02-13-288c",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-04-02&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Trade+unions%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Women": {
+    "title": "UN Women Warns of AI-Driven Gender Bias and Online Abuse",
+    "summary": "UN Women warned that generative AI systems are perpetuating gender and racial biases, amplifying online abuse against women, and reinforcing workplace inequalities. The OECD incident page cites discriminatory AI outputs, sexist attitudes in large language models, deepfake abuse, and non-consensual image sharing as ongoing harms.",
+    "relevance": "This case is relevant to Women because it focuses on AI systems that reproduce gender bias and enable digital violence against women. It highlights how generative AI can contribute to discrimination, psychological harm, online abuse, and violations of rights when biased outputs and synthetic media are deployed at scale.",
+    "also_affects": "Civil society",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-22-f70a",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-22&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Women%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  },
+  "Workers": {
+    "title": "Meta Pauses AI Employee Monitoring Program After Internal Data Leak",
+    "summary": "Meta paused its Model Capability Initiative, an AI-driven employee monitoring program, after a security lapse exposed sensitive worker data internally. The OECD incident page says the program collected detailed interaction data for AI training, including keystrokes, conversations, and performance metrics, raising privacy and employee-rights concerns.",
+    "relevance": "This case is relevant to Workers because it centers on workplace monitoring, employee data collection, and the exposure of sensitive information tied to an AI training program. It highlights how AI systems used inside workplaces can create privacy, psychological, labor-rights, and data-governance harms for employees.",
+    "also_affects": "",
+    "source_url": "https://oecd.ai/en/incidents/2026-06-22-9f3b",
+    "source_list_url": "https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2020-04-02&to_date=2026-06-22&properties_config=%7B%22principles%22%3A%5B%5D%2C%22industries%22%3A%5B%5D%2C%22harm_types%22%3A%5B%5D%2C%22harm_levels%22%3A%5B%5D%2C%22harmed_entities%22%3A%5B%22Workers%22%5D%2C%22business_functions%22%3A%5B%5D%2C%22ai_tasks%22%3A%5B%5D%2C%22autonomy_levels%22%3A%5B%5D%2C%22languages%22%3A%5B%5D%7D&order_by=date&num_results=20"
+  }
+}

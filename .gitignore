@@ -1,0 +1,7 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+config/
+data/preloaded_case_studies.local.json
