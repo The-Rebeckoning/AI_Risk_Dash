@@ -340,8 +340,7 @@ def get_article_component_data(
 ) -> dict[str, str]:
     """Return reusable article component data for the frontend."""
     preloaded_case = load_preloaded_case_studies().get(selected_value)
-    has_api_key = bool(api_key or os.environ.get("OPENAI_API_KEY"))
-    if preloaded_case and (case_index == 0 or not has_api_key):
+    if preloaded_case:
         return {
             **preloaded_case,
             "selected_value": selected_value,

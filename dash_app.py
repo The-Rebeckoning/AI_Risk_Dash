@@ -7,6 +7,7 @@ The original Streamlit application remains in app.py.
 from __future__ import annotations
 
 import os
+import time
 from pathlib import Path
 
 import pandas as pd
@@ -317,7 +318,15 @@ def explore_layout() -> html.Div:
                 delay_show=350,
                 overlay_style={"visibility": "visible", "filter": "blur(1px)"},
             ),
-            dcc.Loading(html.Div(id="case-content"), type="circle"),
+            html.Div([
+                dcc.Loading(
+                    html.Div(id="case-content", style={"minHeight": "350px"}),
+                    type="circle",
+                    delay_show=50,
+                    show_initially=False,
+                    style={"height": "350px", "display": "block"},
+                ),
+            ]),
         ], className="explore-stakeholder-stack"),
         dcc.Store(id="case-index", data=0),
     ])
@@ -448,7 +457,9 @@ def render_tab(url_hash: str):
         "downloads": downloads_layout,
     }
     active_page = requested_page if requested_page in layouts else "overview"
-    return layouts[active_page](), [page_key == active_page for page_key, _ in NAV_ITEMS]
+    page_content = layouts[active_page]()
+    return page_content, [page_key == active_page for page_key, _ in NAV_ITEMS]
+
 
 
 @callback(
@@ -576,6 +587,11 @@ def update_case_card(stakeholder, case_index):
             "summary": "We couldn't load a related case right now. Please try again shortly.",
             "relevance": "",
         }
+    
+    # Add a delay for cached articles so the loading spinner has time to appear
+    if case.get("is_preloaded"):
+        time.sleep(0.3)
+    
     case_children = [
         intro("Related case", case.get("title", "AI harm case")),
         html.P(case.get("summary", ""), className="case-summary"),
